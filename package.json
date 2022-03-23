@@ -1,0 +1,23 @@
+{
+  "name": "chatapp",
+  "version": "1.0.0",
+  "description": "this the chat app with mern ",
+  "main": "server.js",
+  "scripts": {
+    "start": "npm start --prefix frontend",
+    "server": "nodemon backend/server.js"
+  },
+  "author": "Amir mansoor",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "gridfs-stream": "^1.1.1",
+    "mongoose": "^6.2.6",
+    "multer": "^1.4.4",
+    "multer-gridfs-storage": "^5.0.2",
+    "nodemon": "^2.0.15"
+  }
+}
