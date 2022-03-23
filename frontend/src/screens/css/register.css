@@ -1,0 +1,38 @@
+.auth_grid {
+	width: 100vw;
+	height: 100vh;
+	display: grid;
+	place-items: center;
+}
+
+.auth_flex_box {
+	display: flex;
+	flex-direction: column;
+}
+
+.auth_flex_box h3 {
+	font-size: 1.6rem;
+}
+
+.form_input {
+	color: #fff !important;
+	margin-top: 2rem !important;
+	border-bottom: 1px solid white !important;
+}
+
+.auth_btn {
+	color: white !important;
+	text-transform: capitalize !important;
+	font-size: 1.2rem !important;
+	margin-top: 2rem !important;
+	border: 0.1rem solid white !important;
+}
+
+.go_back {
+	font-size: 0.9rem;
+	margin-top: 0.5rem;
+}
+
+.go_back a {
+	color: white;
+}

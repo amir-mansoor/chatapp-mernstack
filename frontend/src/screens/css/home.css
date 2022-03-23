@@ -1,0 +1,37 @@
+.home__main__div {
+	width: 100vw;
+	height: 100vh;
+	background-color: #0c0d0c;
+	color: white;
+	display: grid;
+	place-items: center;
+}
+
+.container {
+	width: 80%;
+}
+
+.d-flex {
+	display: flex;
+	justify-content: space-between;
+}
+
+.left_div h4 {
+	font-size: 3rem;
+}
+
+.left_div p {
+	font-size: 1.3rem;
+}
+
+.right_div p {
+	font-size: 1.3rem;
+	margin-left: 1rem;
+}
+
+.button_home {
+	color: white !important;
+	margin-left: 1rem !important;
+	border: 0.1rem solid white !important;
+	margin-top: 1rem !important;
+}
